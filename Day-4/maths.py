@@ -1,0 +1,6 @@
+num1 = int(input("Enter the number of your choice: "))
+num2 = int(input("Enter another number of your choice: "))
+print("Addition is ", num1 + num2)
+print("Multiplication is ", num1 - num2)
+print("Difference is", num1 % num2)
+print("Product is", num1 * num2)
