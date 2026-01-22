@@ -1,0 +1,11 @@
+colors = ["red", "blue", "yellow", "green"]
+print(f"Original list: {colors}")
+print(f"Length: {len(colors)}")
+colors.insert(2, "purple")
+print(f"After insert at index 2: {colors}")
+print(f"Length: {len(colors)}")
+colors.insert(0, "white")
+print(f"After insert at index 0: {colors}")
+colors.insert(len(colors), "orange")
+print(f"After insert at end: {colors}")
+print(f"Final list: {colors}")
